@@ -229,13 +229,24 @@ h6,
 
 @media (max-width: 576px) {
     .carousel-caption h5 {
-        font-size: 14px;
+        font-size: 14px !important;
         font-weight: 500 !important;
+        padding: 0px 30px !important;
     }
 
     .carousel-caption h1 {
-        font-size: 30px;
+        font-size: 30px !important;
         font-weight: 600 !important;
+    }
+    .btn-index{
+        margin-top: 10px;
+    }
+    .img-slider{
+        height: 300px;
+        object-fit: cover;
+    }
+    .py-5{
+        padding-top: 45px !important;
     }
 }
 
@@ -512,4 +523,15 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.logo{
+    width: auto;
+    height: 30px;
+}
+.logoF{
+    width: auto;
+    height: 45px;
+}
+.carousel-item{
+    min-height: 300px;
 }
